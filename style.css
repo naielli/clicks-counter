@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(41, 37, 39);
+    font-family: 'Outfit', sans-serif;
+}
+
+h2, h5, p {
+    color: #ffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.btn {
+    padding: 1rem;
+}
+
+#btn-click {
+    background-color: rgb(53, 111, 50);
+    color: #ffff;
+    font-size: 1.2rem;
+    font-family:'Quicksand', sans-serif;
+    border-radius: 0.8rem;
+    padding: 0.7rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 0.6rem #999;
+}
+
+#btn-reset {
+    background-color: rgb(88, 99, 87);
+    color: #ffff;
+    font-size: 1.2rem;
+    font-family:'Quicksand', sans-serif;
+    border-radius: 0.8rem;
+    padding: 0.7rem;
+    margin: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 0.6rem #999;
+}
+
+#btn-click:active {
+    background-color: #255427;
+    box-shadow: 0 5px #666;
+    transform: translateY(0.4rem);
+}
+
+#btn-reset:active {
+    background-color: rgb(56, 63, 56);;
+    box-shadow: 0 5px #666;
+    transform: translateY(0.4rem);
+}
+  
